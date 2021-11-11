@@ -15,11 +15,11 @@ C:/Users/Zura/Desktop/TAFE Cert 4 Unity Project/Github/Space-Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50220
+52088
 Successfully changed project path to: C:/Users/Zura/Desktop/TAFE Cert 4 Unity Project/Github/Space-Shooter
 C:/Users/Zura/Desktop/TAFE Cert 4 Unity Project/Github/Space-Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,199 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002244 seconds.
+Registered in 0.002865 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
+- Completed reload, in  1.393 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001236 seconds.
+Registered in 0.001602 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
+- Completed reload, in  1.429 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.7 MB.
-System memory in use after: 56.7 MB.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1544.
-Total: 1.785400 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.482300 ms  DeleteObjects: 0.139600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Audio/SFX/AC_Slap_01.wav
-  artifactKey: Guid(849198577d62d514da0549b90738bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/AC_Slap_01.wav using Guid(849198577d62d514da0549b90738bb2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0733e7b305c107b58d8d7375658429') in 0.171813 seconds
-  Import took 0.174541 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1549.
+Total: 2.796000 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.099300 ms MarkObjects: 2.283300 ms  DeleteObjects: 0.119700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3835.895496 seconds.
-  path: Assets/Audio/SFX/Futuristic Machine Turn Off Signal    [016353].wav
-  artifactKey: Guid(ba88d76e547fba8439814803e4e5993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/Futuristic Machine Turn Off Signal    [016353].wav using Guid(ba88d76e547fba8439814803e4e5993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddafa62cea2395151edbfc63189f84e5') in 0.059527 seconds
-  Import took 0.094804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Audio/SFX/Spaceship Alarm Siren 4 Loop    [016417].wav
-  artifactKey: Guid(7a8b86f09f276b545b769926121c595b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/Spaceship Alarm Siren 4 Loop    [016417].wav using Guid(7a8b86f09f276b545b769926121c595b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e512689759a1afe323fd8a3447421431') in 0.025880 seconds
-  Import took 0.028528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Audio/SFX/Futuristic Machine Turn On Signal    [016356].wav
-  artifactKey: Guid(7523a58886259ef449c0481218559c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/Futuristic Machine Turn On Signal    [016356].wav using Guid(7523a58886259ef449c0481218559c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69346cfb04f267f9bf1c9e2f8195dd0a') in 0.046161 seconds
-  Import took 0.048883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Audio/SFX/LASER BLASTER GUN - Futuristic Pistol Shoot - 03    [002573].wav
-  artifactKey: Guid(8a65eed32d4812842b833044b9020281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/LASER BLASTER GUN - Futuristic Pistol Shoot - 03    [002573].wav using Guid(8a65eed32d4812842b833044b9020281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666231164243e65db8a81a44f4d6ea48') in 0.034581 seconds
-  Import took 0.036718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Audio/SFX/Tactical Combat Operations Full Version.wav
-  artifactKey: Guid(32b1df0bdc2ea394faa0c721fa1a263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/Tactical Combat Operations Full Version.wav using Guid(32b1df0bdc2ea394faa0c721fa1a263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d46678fe5587602ea1892e6fe381f35') in 0.016869 seconds
-  Import took 0.019182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 424.671785 seconds.
-  path: Assets/Audio/Music/Electronic Battle Theme 1.ogg
-  artifactKey: Guid(e28c79867de28924db957a05b411d840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Electronic Battle Theme 1.ogg using Guid(e28c79867de28924db957a05b411d840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff8687f99ab4e7667c89d00a93b282b') in 0.020685 seconds
-  Import took 0.024356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Audio/Music/Tactical Combat Operations Full Version.wav
-  artifactKey: Guid(72b1687430ffbaf408848e5bd2ec79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Tactical Combat Operations Full Version.wav using Guid(72b1687430ffbaf408848e5bd2ec79b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16faff3977aee9af6acbeffc1f39d95c') in 0.013192 seconds
-  Import took 0.020364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Audio/Music/Electronic Battle Theme 3.ogg
-  artifactKey: Guid(baaf9a0e756dfb748b7e264ea0d3129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Electronic Battle Theme 3.ogg using Guid(baaf9a0e756dfb748b7e264ea0d3129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172ad5cfd6680cf24d7033e46a1fc476') in 0.016708 seconds
-  Import took 0.018828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Audio/Music/Electronic Battle Theme 4.ogg
-  artifactKey: Guid(289dff2458397a041ae55d1873adc5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Electronic Battle Theme 4.ogg using Guid(289dff2458397a041ae55d1873adc5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ea75fe67d3284d69cb7440eded78d8') in 0.018244 seconds
-  Import took 0.022063 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001562 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.269 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.0 MB.
-System memory in use after: 60.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1556.
-Total: 2.524900 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.065800 ms MarkObjects: 2.151800 ms  DeleteObjects: 0.061300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.2 MB.
-System memory in use after: 60.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 2.423300 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.043300 ms  DeleteObjects: 0.100700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1551.484640 seconds.
-  path: Assets/Audio/SFX/LASER BLASTER GUN - Futuristic Pistol Shoot - 02    [002572].wav
-  artifactKey: Guid(a823d6783f1417e438df5231fc12bc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/LASER BLASTER GUN - Futuristic Pistol Shoot - 02    [002572].wav using Guid(a823d6783f1417e438df5231fc12bc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd150f652f5765c1deeb0ab2ac22f4c23') in 0.072666 seconds
-  Import took 0.082848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 748.209932 seconds.
   path: Assets/Scripts/EnemyCollision.cs
   artifactKey: Guid(f0eb7add15067564286c1ffb26f19d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyCollision.cs using Guid(f0eb7add15067564286c1ffb26f19d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839196fabd080bcf73d7a266dfc84b6d') in 0.014184 seconds
-  Import took 0.021424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.575373 seconds.
-  path: Assets/Scripts/SFX.cs
-  artifactKey: Guid(c2432eb6a03528e42b6b1635717181ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SFX.cs using Guid(c2432eb6a03528e42b6b1635717181ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebff6cd589283cb88796c84c8dc6c5a') in 0.007488 seconds
-  Import took 0.009611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 212.324962 seconds.
-  path: Assets/Scripts/Audio.cs
-  artifactKey: Guid(a91917075b2957a4f8ae25c816291913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Audio.cs using Guid(a91917075b2957a4f8ae25c816291913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e8ecc6d2ecb61e7f2fa6f5eb289301') in 0.010418 seconds
-  Import took 0.013276 seconds .
+Start importing Assets/Scripts/EnemyCollision.cs using Guid(f0eb7add15067564286c1ffb26f19d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f713e4c65660925a2b68400060b1e26a') in 0.066188 seconds
+  Import took 0.069788 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

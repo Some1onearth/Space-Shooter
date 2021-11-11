@@ -30,6 +30,7 @@ public class EnemyCollision : MonoBehaviour
         //are we touching a bullet?
         if (collision.gameObject.tag == "Bullet")
         {
+            GameHandler.gameHandler.Score();
             //destroy bullet THEN destroy self
             Destroy(collision.gameObject);
             Destroy(gameObject);
@@ -37,8 +38,10 @@ public class EnemyCollision : MonoBehaviour
         //are we touching the player?
         else if (collision.gameObject.tag == "Player")
         {
+            GameHandler.gameHandler.HiScore();
             //destroy the player
             Destroy(collision.gameObject);
+            GameHandler.gameHandler.Buttons();
         }
         Debug.Log(collision.gameObject.name);
 

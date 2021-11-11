@@ -5,7 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
-    public GameObject bullet;
+    public AudioSource _as;
+    public AudioClip[] audioClipArray;
+    void Awake()
+    {
+        _as = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -30,13 +35,14 @@ public class PlayerController : MonoBehaviour
         movement *= speed;
 
         transform.Translate(movement);
-        //can shoot
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Debug.Log("Fire!");
-            Instantiate(bullet, transform.position, transform.rotation);
-        }
-        //can get killed by enemy
+
+            //can shoot
+            if (Input.GetButtonDown("Fire1"))
+            {
+                _as.clip = audioClipArray[Random.Range(0, audioClipArray.Length)];
+                _as.PlayOneShot(_as.clip);
+            }
+            //can get killed by enemy
 
         //Clamp players' position to read inside the field
         Vector3 clampPos = transform.position;
